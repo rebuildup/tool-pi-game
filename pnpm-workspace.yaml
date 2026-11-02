@@ -1,0 +1,4 @@
+# pnpm 12 denies dependency lifecycle scripts by default. esbuild needs its
+# install script to place the platform binary that Vite uses.
+allowBuilds:
+  esbuild: true
