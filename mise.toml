@@ -1,7 +1,12 @@
 # Auxiliary project-local tooling for Agent Skills.
+#
+# pnpm is the package manager of this repository (the committed
+# `pnpm-lock.yaml` is the reproducible dependency state). bun stays as the
+# Agent Skills CLI prerequisite.
 
 [tools]
 bun = "1.4.2"
+pnpm = "12.16.1"
 
 [tasks.skills-list]
 run = "bunx skills add rebuildup/project-init --list"
